@@ -1,12 +1,12 @@
-let FristName = prompt("please enter your name");
+let FirstName = prompt("please enter your name");
 let mail = prompt("please enter your email");
-console.log(FristName + " " + mail);
+console.log(FirstName + " " + mail);
 let gender = prompt("Are you Male or Female?").toUpperCase();
 if (gender === "MALE" || gender === "FEMALE") {
   if (gender === "MALE") {
-    alert("ברוך הבא " + FristName);
+    alert("ברוך הבא " + FirstName);
   } else if (gender === "FEMALE") {
-    alert("ברוכה הבאה " + FristName);
+    alert("ברוכה הבאה " + FirstName);
   }
 } else {
   alert("invalid Gender");
